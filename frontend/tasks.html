@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Administrador de Tareas</h1>
+        <div id="tasks">
+            <h2>Tareas</h2>
+            <ul id="task-list"></ul>
+            <input type="text" id="new-task" placeholder="Nueva Tarea">
+            <button onclick="createTask()">Agregar Tarea</button>
+        </div>
+        <div id="categories">
+            <h2>Categorías</h2>
+            <ul id="category-list"></ul>
+            <input type="text" id="new-category" placeholder="Nueva Categoría">
+            <button onclick="createCategory()">Agregar Categoría</button>
+        </div>
+        <div id="users">
+            <h2>Usuarios</h2>
+            <ul id="user-list"></ul>
+        </div>
+    </div>
+    <script src="taskscripts.js"></script>
+</body>
+</html>
